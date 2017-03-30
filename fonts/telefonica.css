@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'TelefonicaRegular';
+    src: url('telefonica-regular-webfont.woff2') format('woff2'),
+         url('telefonica-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'TelefonicaCapRegular';
+    src: url('telefonicacap-regular-webfont.woff2') format('woff2'),
+         url('telefonicacap-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'TelefonicaBold';
+    src: url('telefonica-bold-webfont.woff2') format('woff2'),
+         url('telefonica-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'TelefonicaLight';
+      src: url('telefonica-light-webfont.woff2') format('woff2'),
+         url('telefonica-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'TelefonicaXtraLight';
+      src: url('telefonica-extralight-webfont.woff2') format('woff2'),
+         url('telefonica-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'TelefonicaHand';
+      src: url('telefonica-hand-webfont.woff2') format('woff2'),
+         url('telefonica-hand-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'TelefonicaItalic';
+     src: url('telefonica-regularitalic-webfont.woff2') format('woff2'),
+         url('telefonica-regularitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

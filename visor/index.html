@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta content="charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" href="css/visor.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+  <link href='../fonts/telefonica.css' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <script src="js/modernizr.js"></script>
+</head>
+<body class="loading">
+<div class="preload"><img src="loader.gif" class="img-responsive"/></div>
+  <div id="container" class="cf">
+
+	<div id="main" role="main">
+      <section class="slider">
+        <div id="slider" class="flexslider">
+          <ul class="slides">
+            <li>
+              <span class='zoom' id='ex3'>
+    	    	    <img src="../downloads/images/eccbcprepago079_detalle_propio_0.png"/>
+              </span>
+  	    		</li>
+  	    		<li>
+               <span class='zoom' id='ex3'>
+              <img src="../downloads/images/eccbcprepago079_detalle_propio_1.png" />
+            </li>
+            <li>
+               <span class='zoom' id='ex3'>
+              <img src="../downloads/images/eccbcprepago079_detalle_propio_2.png" />
+               </span>
+            </li>
+            <li>
+               <span class='zoom' id='ex3'>
+              <img src="../downloads/images/eccbcprepago079_detalle_propio_3.png" />
+               </span>
+            </li>
+            <li>
+               <span class='zoom' id='ex3'>
+              <img src="../downloads/images/eccbcprepago079_detalle_propio_4.png" />
+               </span>
+            </li>
+          </ul>
+        </div>
+        <!--div id="carousel" class="flexslider">
+          <ul class="slides">
+             <li>
+              <img src="../downloads/images/eccbcprepago079_detalle_propio_0.png" />
+            </li>
+            <li>
+              <img src="../downloads/images/eccbcprepago079_detalle_propio_1.png" />
+            </li>
+            <li>
+              <img src="../downloads/images/eccbcprepago079_detalle_propio_2.png" />
+            </li>
+            <li>
+              <img src="../downloads/images/eccbcprepago079_detalle_propio_3.png" />
+            </li>
+            <li>
+              <img src="../downloads/images/eccbcprepago079_detalle_propio_4.png" />
+            </li>
+          </ul>
+        </div-->
+      </section>
+
+  </div>
+</div>
+  <!-- jQuery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+  <script defer src="js/jquery.flexslider.js"></script>
+  <script src='js/jquery.zoom.js'></script>
+  <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('#carousel').flexslider({
+        animation: "slide",
+        controlNav: false,
+        animationLoop: false,
+        slideshow: false,
+        itemWidth: 50,
+        itemMargin: 10,
+        asNavFor: '#slider'
+      });
+
+      $('#slider').flexslider({
+        animation: "slide",
+        controlNav: false,
+        animationLoop: false,
+        slideshow: false,
+        sync: "#carousel",
+        start: function(slider){
+          $('body').removeClass('loading');
+          $('.preload').hide();
+        }
+      });
+    });
+    $(document).ready(function(){
+      $('.zoom').zoom({ on:'click' });      
+    });
+  </script>
+
+
+  <!-- Syntax Highlighter -->
+  <script type="text/javascript" src="js/shCore.js"></script>
+  <script type="text/javascript" src="js/shBrushXml.js"></script>
+  <script type="text/javascript" src="js/shBrushJScript.js"></script>
+
+  <!-- Optional FlexSlider Additions -->
+  <script src="js/jquery.easing.js"></script>
+  <script src="js/jquery.mousewheel.js"></script>
+  <script defer src="js/demo.js"></script>
+  <script type="text/javascript">
+      $(document).ready(function(){
+       
+        $('#modal-gallery', window.parent.document).find('#btn_descarga').click(function(){
+          alert('ok')
+          });
+        
+      });
+    </script>
+
+</body>
+</html>
