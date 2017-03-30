@@ -1,6 +1,6 @@
 <?php
-	require_once("../includes/config.php");
-	$permitido = 0;
+	// require_once("../includes/config.php");
+	// $permitido = 0;
 ?>
 <!doctype html>
 <html class="no-js" lang="">
